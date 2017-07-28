@@ -16,3 +16,13 @@ fun sum(a: IntArray): Int {
     }
     return 0
 }
+
+
+fun main(args: Array<String>) {
+    if (args.size > 0) {
+        
+    } else {
+        val x: IntArray = intArrayOf(1, 2, 3)
+        println(sum(x))
+    }
+}
